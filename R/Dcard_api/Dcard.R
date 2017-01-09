@@ -14,10 +14,14 @@ Crawler <- function() {
 
 }
 
+
 Crawler();
 
 Dcard = as.matrix(Dcard)
+#轉入矩陣
 
 write.table(Dcard, file = "Dcard.CSV", sep = "," )
+#輸出csv檔案
 
-#有問題歡迎來問
+#有問題歡迎詢問
+#此程式碼是以廢文版當範例
