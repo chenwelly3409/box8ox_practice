@@ -1,0 +1,19 @@
+COPY    START 0
+	var1	RESW	1
+	var2	RESB	12
+	var3  EQU  12
+add var1
++addf var2
+addr a,b
++and var1
+clear b
+comp 0
++compf var3
+compr b,a
+.this is comment
+div var1
+divf var1
+divr l,s
+fix
+float
+END	FIRST
